@@ -1,9 +1,9 @@
 class MusicHook < Formula
   desc "Local CLI bridge for controlling YouTube playback through Zen"
   homepage "https://github.com/CryoViking/MusicHook"
-  url "https://github.com/CryoViking/MusicHook/releases/download/0.1.0/MusicHook-0.1.0.tar.gz"
-  sha256 "8ab0c5575243c2194669fd2469dd0046c44e8d25f20667daae2e37d093f65b08"
-  version "0.1.0"
+  url "https://github.com/CryoViking/MusicHook/releases/download/0.1.1/MusicHook-0.1.1.tar.gz"
+  sha256 "cc30c3964c83778a528a625ff21ba53dfa33e7f1fdd61015266e0a49d16c6d3e"
+  version "0.1.1"
 
   depends_on :macos
   depends_on "zig" => :build
